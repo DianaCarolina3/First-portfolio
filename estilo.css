@@ -47,15 +47,15 @@ background-position = para modificar la posición del bakground asignado
 }*/
 
 body {
-    font-family: Open Sans, Roboto;
-    margin: 0;
+  font-family: Open Sans, Roboto;
+  margin: 0;
 }
 
 ol,
 il {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 h1,
@@ -64,517 +64,522 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Fjalla One', Roboto, sans-serif;
-    font-weight: normal;
-    /*font-style: normal;*/
+  font-family: "Fjalla One", Roboto, sans-serif;
+  font-weight: normal;
+  /*font-style: normal;*/
 }
 
 h1 {
-    line-height: 1.5;
-    font-size: 36px;
-    letter-spacing: -0.2px;
-    /*text-transform: capitalize;/
+  line-height: 1.5;
+  font-size: 36px;
+  letter-spacing: -0.2px;
+  /*text-transform: capitalize;/
     /*text-decoration: underline;*/
-    color: white;
-    margin: 0;
-    /*margin: 100px 150px 70px 30px;*/
+  color: white;
+  margin: 0;
+  /*margin: 100px 150px 70px 30px;*/
 }
 
 h1 strong {
-    color: #0971f8;
+  color: #0971f8;
 }
 
 h2 {
-    color: #026fff;
-    text-transform: uppercase;
-    font-family: Open Sans;
-    font-weight: bold;
-    font-size: 24px;
-    margin-bottom: 40px;
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
 }
 
 .header {
-    background-color: #1b2127;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    height: 70px;
-    align-items: center;
-    flex-wrap: wrap;
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 figure {
-    margin: 0;
+  margin: 0;
 }
 
 .menu {
-    height: inherit;
+  height: inherit;
 }
 .header ol {
-    display: flex;
-    height: inherit;
+  display: flex;
+  height: inherit;
 }
 
 .header ol li {
-    height: inherit;
+  height: inherit;
 }
 
 .header a {
-    color: white;
-    text-decoration: none;
-    height: inherit;
-    display: flex;
-    align-items: center;
-    padding: 0 10px;
+  color: white;
+  text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
 }
 
 .hero {
-    height: 300px;
-    background-color: #1b2127;
-    /*background-size: 500px 300px;
+  height: 300px;
+  background-color: #1b2127;
+  /*background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
     background-color: #1b2127;
     background-image: url('../html/img/computer-programmer-coding-on-laptop.jpg');*/
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .filter-page {
-    filter: blur(3px);
+  filter: blur(3px);
 }
 
 .hero-image {
-    object-fit: cover;
+  object-fit: cover;
 }
 
 .portfolio {
-    background: #fafafa;
-    padding: 20px;
+  background: #fafafa;
+  padding: 20px;
 }
 
 .project {
-    /*border-top: 1px solid ; arriba
+  /*border-top: 1px solid ; arriba
     border-right: 1px solid ; derecha
     border-left: 1px solid ; izquierda
     border-bottom: 1px solid ; abajo
     border-color: ;
     border-width: 15px; ancho borde
     border-style: solid;*/
-    border: 1px solid gray;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    padding: 20px;
-    /*margin: 10px;*/
-    background: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  /*margin: 10px;*/
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .project-title {
-    font-size: 30px;
-    margin-top: 0;
-    margin-bottom: 10px;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .project-course,
 .project-date,
 .project-url {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .project-url a {
-    color: black;
+  color: black;
 }
 
 .project-description {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .project strong {
-    font-family: Fjalla One;
+  font-family: Fjalla One;
 }
 
 .project-details {
-    width: 50%;
+  width: 50%;
 }
 
 .project-imageContainer {
-    width: 50%;
+  width: 50%;
 }
 
 .project-imageContainer img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .experiencesList {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .experiences-list-title {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 .html-video {
-    width: 100%;
-    height: 220px;
-    /* max-width: 100%; */
-    object-fit: unset;
+  width: 100%;
+  height: 220px;
+  /* max-width: 100%; */
+  object-fit: unset;
+}
+.iframe-figure1 {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
 }
 
 .iframe-figure {
-    width: 100%;
-    height: 170px;
-    /* max-width: 100%; */
-    object-fit: unset;
+  width: 100%;
+  height: 170px;
+  /* max-width: 100%; */
+  object-fit: unset;
 }
 .youtube-video {
-    /* width: 100%;
+  /* width: 100%;
     height: auto; */
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 400px;
-    /* z-index: ; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 400px;
+  /* z-index: ; */
 }
 .flexible-video {
-    height: 500px;
-    width: 100%;
-    /* padding-top: 100%; */
-    position: relative;
+  height: 500px;
+  width: 100%;
+  /* padding-top: 100%; */
+  position: relative;
 }
 .experiences {
-    /*border: 1px solid gray;*/
-    margin: auto;
-    width: 48%;
-    flex-shrink: 0;
-    border-radius: 10px;
-    overflow: hidden;
-    background: #f4fbff;
+  /*border: 1px solid gray;*/
+  margin: auto;
+  width: 48%;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f4fbff;
 }
 
 .experiences img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 .experiences-detail {
-    margin: 20px;
-    background-color: white;
-    margin-top: -40px;
-    position: relative;
-    padding: 20px 40px;
-    text-align: center;
+  margin: 20px;
+  background-color: white;
+  margin-top: -40px;
+  position: relative;
+  padding: 20px 40px;
+  text-align: center;
 }
 
 .experiences-description {
-    text-align: left;
+  text-align: left;
 }
 
 .experiences-url {
-    border: 1px solid #056fff;
-    padding: 5px 20px;
-    text-decoration: none;
-    color: #056fff;
-    border-radius: 5px;
+  border: 1px solid #056fff;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #056fff;
+  border-radius: 5px;
 }
 
 .footer {
-    display: flex;
-    background-color: #1b2127;
-    color: white;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  background-color: #1b2127;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .contact {
-    background-color: #056fff;
-    color: white;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  background-color: #056fff;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .social {
-    /*border: 1px solid;*/
+  /*border: 1px solid;*/
 }
 
 .social-link {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    /*border: 1px solid white;*/
-    margin: 0 10x;
-    background-size: 50px 50px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  /*border: 1px solid white;*/
+  margin: 0 10x;
+  background-size: 50px 50px;
 }
 
 .social-link.twitter {
-    background-image: url(../html/img/twitter-.jpg);
-    background-size: 50px 50px;
+  background-image: url(../html/img/twitter-.jpg);
+  background-size: 50px 50px;
 }
 
 .social-link.facebook {
-    background-image: url(../html/img/facebook.jpg);
-    background-size: 50px 50px;
+  background-image: url(../html/img/facebook.jpg);
+  background-size: 50px 50px;
 }
 
 .social-link.instagram {
-    background-image: url(../html/img/instagram.png);
-    background-size: 50px 50px;
+  background-image: url(../html/img/instagram.png);
+  background-size: 50px 50px;
 }
 
 .social-link.github {
-    background-image: url(../html/img/gitrut.jpg);
-    background-size: 50px 50px;
+  background-image: url(../html/img/gitrut.jpg);
+  background-size: 50px 50px;
 }
 
 .form-email input {
-    border-color: gray;
-    padding: 5px 20px 5px 25px;
-    border-radius: 5px;
-    border-style: solid;
-    background-image: url(../html/img/email.png);
-    background-size: 20px 15px;
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: 5px;
-    padding: 10px 30px;
+  border-color: gray;
+  padding: 5px 20px 5px 25px;
+  border-radius: 5px;
+  border-style: solid;
+  background-image: url(../html/img/email.png);
+  background-size: 20px 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+  padding: 10px 30px;
 }
 
 .form-email button {
-    display: block;
-    border-radius: 5px;
-    width: 100px;
-    padding: 10px 0;
-    background: transparent;
-    color: white;
-    margin-top: 10px;
-    border-style: solid;
-    border-color: white;
-    /*margin: 10px auto 0;*/
+  display: block;
+  border-radius: 5px;
+  width: 100px;
+  padding: 10px 0;
+  background: transparent;
+  color: white;
+  margin-top: 10px;
+  border-style: solid;
+  border-color: white;
+  /*margin: 10px auto 0;*/
 }
 
 .form-email h3 {
-    font-family: Open Sans;
+  font-family: Open Sans;
 }
 
 .footer img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .footer a {
-    color: white;
+  color: white;
 }
 
 .container {
-    padding: 0 1em;
-    max-width: 1000px;
-    /* width: 100%; */
-    flex: 1;
-    margin: 0 auto;
-    display: inherit;
-    justify-content: inherit;
-    align-items: inherit;
-    height: inherit;
-    flex-wrap: wrap;
+  padding: 0 1em;
+  max-width: 1000px;
+  /* width: 100%; */
+  flex: 1;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: wrap;
 }
 
 .icon-burger-botom {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #01295c;
-    display: block;
-    position: fixed;
-    z-index: 3;
-    left: 5px;
-    top: 5px;
-    background-color: rgba(6, 14, 167, 0.8);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #01295c;
+  display: block;
+  position: fixed;
+  z-index: 3;
+  left: 5px;
+  top: 5px;
+  background-color: rgba(6, 14, 167, 0.8);
 }
 
 @media screen and (min-width: 1024px) {
-    .icon-burger-botom {
-        display: none;
-    }
+  .icon-burger-botom {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-    .icon-burger-botom {
-        display: none;
-    }
-    .hero {
-        height: auto;
-        position: relative;
-        overflow: hidden;
-        padding: 2em;
-    }
-    .hero-image {
-        position: absolute;
-        z-index: 1;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        width: 100%;
-    }
-    h1 {
-        font-size: 2em;
-        z-index: 2;
-    }
+  .icon-burger-botom {
+    display: none;
+  }
+  .hero {
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 2em;
+  }
+  .hero-image {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  h1 {
+    font-size: 2em;
+    z-index: 2;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .icon-burger-botom {
-        display: block;
-        z-index: 5;
-    }
-    .header {
-        display: block;
-        height: auto;
-    }
-    .header ol {
-        display: initial;
-        /* tambien puede ser block */
-    }
-    .header ol li {
-        height: 50px;
-    }
-    .header a {
-        justify-content: center;
-        height: 40px;
-        font-size: 2em;
-        text-decoration: underline;
-        margin-bottom: 0.5em;
-    }
-    .logo {
-        text-align: center;
-    }
-    .menu {
-        position: fixed;
-        background: rgba(44, 130, 250, 0.9);
-        z-index: 4;
-        top: 0;
-        left: -100vw;
-        width: 100vw;
-        /* height: 100vh; */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        bottom: 0;
-        transition: 0.3s;
-    }
-    .is-active {
-        left: 0;
-    }
+  .icon-burger-botom {
+    display: block;
+    z-index: 5;
+  }
+  .header {
+    display: block;
+    height: auto;
+  }
+  .header ol {
+    display: initial;
+    /* tambien puede ser block */
+  }
+  .header ol li {
+    height: 50px;
+  }
+  .header a {
+    justify-content: center;
+    height: 40px;
+    font-size: 2em;
+    text-decoration: underline;
+    margin-bottom: 0.5em;
+  }
+  .logo {
+    text-align: center;
+  }
+  .menu {
+    position: fixed;
+    background: rgba(44, 130, 250, 0.9);
+    z-index: 4;
+    top: 0;
+    left: -100vw;
+    width: 100vw;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    transition: 0.3s;
+  }
+  .is-active {
+    left: 0;
+  }
 
-    .hero {
-        height: auto;
-        position: relative;
-    }
-    .hero-image {
-        position: absolute;
-        z-index: 1;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-    }
-    h1 {
-        font-size: 2em;
-        z-index: 2;
-    }
+  .hero {
+    height: auto;
+    position: relative;
+  }
+  .hero-image {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  h1 {
+    font-size: 2em;
+    z-index: 2;
+  }
 
-    .project {
-        display: block;
-    }
-    .project-imageContainer {
-        width: auto;
-        text-align: center;
-    }
-    .project-details {
-        width: auto;
-        font-size: 16px;
-    }
-    .project-course,
-    .project-date,
-    .project-url {
-        margin: 0.3em 0;
-    }
-    .project-title {
-        font-size: 1.5em;
-        margin-bottom: 0.3em;
-    }
-    .project-url {
-        font-size: 1.1em;
-    }
-    .project-date {
-        font-size: 1.1em;
-    }
-    .project-course {
-        font-size: 0.9em;
-    }
-    .project-description {
-        font-size: 1.1em;
-    }
+  .project {
+    display: block;
+  }
+  .project-imageContainer {
+    width: auto;
+    text-align: center;
+  }
+  .project-details {
+    width: auto;
+    font-size: 16px;
+  }
+  .project-course,
+  .project-date,
+  .project-url {
+    margin: 0.3em 0;
+  }
+  .project-title {
+    font-size: 1.5em;
+    margin-bottom: 0.3em;
+  }
+  .project-url {
+    font-size: 1.1em;
+  }
+  .project-date {
+    font-size: 1.1em;
+  }
+  .project-course {
+    font-size: 0.9em;
+  }
+  .project-description {
+    font-size: 1.1em;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    h1 {
-        font-size: 2em;
-    }
-    .project-details {
-        width: auto;
-        font-size: 12px;
-    }
+  h1 {
+    font-size: 2em;
+  }
+  .project-details {
+    width: auto;
+    font-size: 12px;
+  }
 
-    .experiences-detail {
-        margin: -40px 10px 10px 10px;
-        padding: 1.5em;
-    }
+  .experiences-detail {
+    margin: -40px 10px 10px 10px;
+    padding: 1.5em;
+  }
 
-    .experiences {
-        width: 90%;
-    }
+  .experiences {
+    width: 90%;
+  }
 
-    .contact {
-        height: auto;
-        padding: 1em 0;
-        text-align: center;
-        display: block;
-    }
-    .form-email button {
-        margin: 1em auto;
-    }
-    .form-email h3 {
-        margin-top: 0;
-    }
-    .footer {
-        display: block;
-        text-align: center;
-        border: 1px solid transparent;
-    }
+  .contact {
+    height: auto;
+    padding: 1em 0;
+    text-align: center;
+    display: block;
+  }
+  .form-email button {
+    margin: 1em auto;
+  }
+  .form-email h3 {
+    margin-top: 0;
+  }
+  .footer {
+    display: block;
+    text-align: center;
+    border: 1px solid transparent;
+  }
 }
 
 @media screen and (max-width: 340px) {
 }
 
 @media screen and (max-width: 320px) {
-    .hero {
-        padding: 2em;
-    }
-    h1 {
-        font-size: 1.5em;
-        /* background: rgba(0, 0, 0, 0 0.5); */
-    }
+  .hero {
+    padding: 2em;
+  }
+  h1 {
+    font-size: 1.5em;
+    /* background: rgba(0, 0, 0, 0 0.5); */
+  }
 }
