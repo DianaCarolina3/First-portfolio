@@ -325,22 +325,22 @@ figure {
 }
 
 .social-link.twitter {
-  background-image: url(../html/img/twitter-.jpg);
+  background-image: url(img/twitter-.jpg);
   background-size: 50px 50px;
 }
 
 .social-link.facebook {
-  background-image: url(../html/img/facebook.jpg);
+  background-image: url(img/facebook.jpg);
   background-size: 50px 50px;
 }
 
 .social-link.instagram {
-  background-image: url(../html/img/instagram.png);
+  background-image: url(img/instagram.png);
   background-size: 50px 50px;
 }
 
 .social-link.github {
-  background-image: url(../html/img/gitrut.jpg);
+  background-image: url(/img/gitrut.jpg);
   background-size: 50px 50px;
 }
 
@@ -349,7 +349,7 @@ figure {
   padding: 5px 20px 5px 25px;
   border-radius: 5px;
   border-style: solid;
-  background-image: url(../html/img/email.png);
+  background-image: url(img/email.png);
   background-size: 20px 15px;
   background-repeat: no-repeat;
   background-position-y: center;
